@@ -17,3 +17,6 @@ mod link_weights;
 
 mod query_reply;
 mod session;
+
+#[cfg(feature = "transport_tcp")]
+mod liveliness_retention;
